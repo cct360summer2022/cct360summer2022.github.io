@@ -1,0 +1,564 @@
+/* CSS Document */
+body{
+	display: flex;
+	flex-direction: column;
+	margin-top: 8.1px;
+}
+
+header{
+	display: flex;
+	position: fixed;
+	background: white;
+
+
+	margin-top: -7.8px;
+
+		width: 100%;
+		z-index: 2;
+
+}
+
+
+#idk {
+	z-index: 3;
+	position: fixed;
+
+}
+
+
+
+#mainMenu{
+	display: none;
+	position: relative;
+	max-width: 80rem;
+	margin: 0 auto;
+}
+#mainMenu.open{
+	display: block;
+}
+#mainMenu ul{
+	position: absolute;
+	padding-left: 5px;
+
+	background: #f5f5f5;
+	margin-left: px;
+	margin-top: 70px;
+
+	flex-direction: column;
+	width: 12rem;
+}
+#mainMenu li {
+	list-style-type: none;
+}
+#mainMenu li a{
+	font-family: sans-serif;
+	color:black ;
+  display: block;
+	text-align: center;
+  font-size: .9rem;
+ 
+  padding: .7rem .5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#mainMenu li a:hover{
+
+  text-decoration: underline;
+}
+
+
+ .menuButton{
+	position: fixed;
+	left: 28px;
+	top: 13px;
+	cursor: pointer
+
+
+	}
+
+ .menuButton{
+	text-decoration: none;
+	display: block;
+	color: #000;
+	font-family: sans-serif;
+	font-size: 19px;
+	font-weight: lighter;
+	display: block;
+	padding: 0px 7px;
+	color: #000;
+	text-decoration: none;
+
+
+}
+
+
+ .menuButton:hover{
+	text-decoration: underline;
+}
+
+
+
+
+.mn{
+	margin-left: 0;
+	font-family: sans-serif;
+
+}
+
+.mn li {
+	display: inline-block;
+	
+
+}
+
+.mn ul li a{
+	text-decoration: none;
+	display: block;
+	color: #000;
+
+}
+
+
+.mn ul{
+	max-width: 70rem;
+	display: flex;
+	flex-flow: row wrap;
+	margin-left: -11px;
+
+
+}
+
+.mn ul li{
+
+  white-space: nowrap;	
+
+
+}
+
+.mn ul li a {
+	display: block;
+	padding: 0px 7px;
+	color: #000;
+	text-decoration: none;
+	font-size: .5rem;
+
+}
+
+
+.mn ul li a:hover{
+	text-decoration: underline;
+}
+
+
+#logo{
+	width: 40%;
+	margin-left: 50px;
+	padding-top: 10px;
+
+
+}
+
+
+#logo a{
+	font-family: sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+	display: block;
+	padding: 0px 7px;
+	color: #000;
+	text-decoration: none;
+
+}
+
+
+
+.mn a {
+	display: block;
+	padding: 0px 7px;
+	color: #000;
+	text-decoration: none;
+	font-size: .5rem;
+	display: inline-block;
+
+}
+
+.mn a:hover{
+	text-decoration: underline;
+}
+
+#cc a{
+	
+	padding-top:11px;
+}
+
+
+#bk{
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-top: 70px;
+
+}
+
+
+
+
+.opt{
+	
+	align-items: center;
+	margin-top: 200px;
+	column-gap: 250px;
+	
+
+
+}
+
+#ct .opt a{
+	font-family: sans-serif;
+	font-size: 60px;
+	color: #000;
+	text-decoration: none;
+	  padding: flex;
+	  	padding-top: 25px;
+
+}
+
+
+
+
+#ct .opt{
+	max-width: 80rem;
+	margin: 0 auto;
+	padding: 0px;
+	display: flex;
+flex-flow: row wrap;
+	min-height: 20px;
+		flex-grow: 1;
+
+}
+
+
+
+
+
+#mr #below{	
+	flex-flow: row wrap;
+	display: flex;
+	justify-content: space-around;
+	row-gap: 130px;
+
+}
+
+
+#mr #below .content{
+	width: 600px;
+	height: 300px;
+
+	margin-left: 30px;
+	margin-top: 50px;
+	z-index: 1;
+
+}
+
+
+h3 {
+	font-family: sans-serif;
+	font-weight: lighter;
+	margin: 0px;
+	margin-top: 5px;
+}
+
+h4 {
+font-family: 'Libre Caslon Display', serif;
+font-size: 18px;
+font-weight: 10;
+letter-spacing: .5px;
+margin: 0px;
+}
+
+
+
+#mr #below .content a img{
+	width: 100%;
+	max-height: 400px;
+	object-fit:cover;
+	flex-flow: row wrap;
+	flex: 2 1 460px;
+
+}
+
+#mr #below .content a{
+    text-decoration: none;
+    display: block;
+	color: #000;
+}
+
+#mr #below .content a .wd{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.ttt {
+	display: flex;
+	align-items: flex-end;
+
+}
+
+.ppp{
+	padding-top: 8px;
+}
+
+span {
+	font-size: 12px;
+	color: #827f7f;
+	padding-right: 30px;
+}
+
+
+#mr2 #below2{	
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+	height: 800px;
+	flex-flow: row wrap;
+
+	
+
+}
+
+
+#mr2 #below2 .content2{
+	display: flex;
+	justify-content: space-around;
+	max-width: 20%;
+	margin: 0 200px;
+	margin-top: 200px;
+	flex-flow: row wrap;
+	flex: 2 1;
+	width: 30px;
+	height: 780px;
+	margin-bottom: -200px;
+}
+
+.pic2{
+	width: 439px;
+	height: 586px;
+
+}
+
+
+#mr2 #below2 .content2 a img{
+
+	min-height: 100%;
+	object-fit: cover;
+	width: 100%;
+
+}
+
+#mr2 #below2 .content2 a .pic2{
+	display: flex;
+	justify-content: center;
+
+}
+
+#mr2 #below2 .content2 a{
+    text-decoration: none;
+    display: block;
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	display: flex;
+	margin-top: 270px;
+	margin-bottom: 30px;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+
+footer a{
+	text-decoration: none;
+	color: #000;
+	font-family:sans-serif;
+}
+
+footer #high a{
+	display: inline-flex;
+	margin: 10px 40px;
+	font-size: 10px;
+
+}
+footer a:hover{
+	text-decoration: underline;
+}
+
+footer #high{
+	display: inline-flex;
+	flex-flow: row wrap;
+}
+
+footer #high #social a{
+	display:inline-flex;
+	justify-content: flex-end;
+	margin-right: -30px;
+}
+
+
+footer #low a{
+	display: inline-flex;
+	margin: 10px 40px;
+	font-size: 2px;
+	color: #a19f9f;
+	flex-shrink: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+@media (min-width: 960px) and (max-width: 1295px){
+	#mr #below .content a img{
+	
+
+		width:1000px;
+		display: flex;
+
+	}
+
+     #mr #below .content {
+     	display: flex;
+     	justify-content: center; 
+     	margin-bottom: 20px;
+     	padding-top: 10px;
+  
+     }
+
+
+     #mr #below {
+     	display: flex;
+     		justify-content: space-around;
+ 
+     }
+ }
+
+
+
+@media (max-width: 960px){
+	#hd .mn #cc a{
+		display:none;
+		visibility:hidden
+	}
+	.mn ul{
+		display:none;
+		visibility:hidden
+	}
+#logo{
+
+	padding-top: 10px;
+
+}
+	
+
+	#logo {
+		align-items: center;
+		justify-content: center;
+	}
+
+	header {
+		justify-content: center;
+	}
+
+
+}
+
+
+@media (min-width: 960px){
+ .menuButton{
+		display:none;
+		visibility:hidden;
+	
+	}
+
+}
+
+
+
+
+
+
+@media (min-width: 892px) and (max-width: 1323px){
+	footer{
+		margin-top: 1000px;
+	}
+}
+
+@media (max-width: 892px){
+	footer{
+		margin-top: 1780px;
+	}
+	#mr2 {
+		margin-top: 50px;
+	}
+}
+
+
+
+@media (max-width: 596px){
+footer #high{
+  flex-direction: column;
+}
+footer #low{
+  display: flex;
+  flex-direction: column;
+}
+footer #low{
+  margin-left: -35px;
+
+}
+}

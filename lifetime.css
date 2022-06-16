@@ -1,0 +1,454 @@
+
+
+
+#lftm a.gem.active{
+text-decoration: underline;
+}
+
+
+
+
+
+#title {
+
+margin: 0 auto;
+padding: 1rem; /* applies on all sides. */
+min-height: 75vh;
+}
+
+
+
+
+
+#mainarea {
+margin-top: 40px;
+}
+
+
+
+
+
+
+#title{
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap; 
+padding-bottom: 1.2rem;
+}
+
+
+
+
+#title .wd3 #topic{
+flex: 1 1 400px; 
+display: flex; 
+flex-direction: column;
+padding-right: .5rem;
+margin-top: .6rem;
+margin-right: -200px;
+}
+
+#title .wd3 {
+margin-top: 40px;
+margin-left: 20px;
+flex: 1 1 230px; 
+flex-direction: column;
+padding-right: .5rem;
+}
+
+
+
+
+#title .wd3 h2 {
+font-size: 80px;
+font-weight: 400; 
+margin: 0 .5rem 2.5rem 0;
+z-index: 2;
+font-family: sans-serif;
+}
+
+/*  Headline Image */
+
+#title .primaryImage {
+
+flex: 1 1 460px;
+}
+
+#title .primaryImage{
+padding: 0;
+border: 0;
+z-index: -2;
+}
+
+#title .primaryImage img{
+width: 100%;
+height: 1000px;
+object-fit: cover;
+}
+
+.wd3 .sub{
+margin-right: -100px;
+z-index: 2;
+
+
+
+}
+
+.sub{
+margin-right: 100px;
+margin: 0 1.2rem 0 0;
+}
+
+
+
+.sub h3{
+
+font-family: Didot, serif;
+font-weight: regular;
+font-size: 50px;
+line-height: 59px;
+
+}
+
+
+
+.sub2 h3{
+font-size: 13px;
+color: #827f7f;
+line-height: 20px;
+margin-left: 3px;
+}
+
+
+
+.wd3 #social2 a{
+text-decoration: none;
+color: black;
+font-size: 22px;
+padding-top: 10px;
+padding-right: 17px;
+
+}
+
+
+#tag {
+position: absolute;
+top: 100px;
+left: 44px;
+}
+
+
+#special {
+font-size: 18px;
+color: #403e3e;
+
+}
+
+
+
+#foreword{
+display: flex;
+flex-direction: column;
+}
+
+
+
+#foreword h3{
+
+font-family: Didot, serif;
+font-size: 30px;
+line-height: 39px;
+max-width: 65%;
+margin-top: 3%;
+
+margin-left: 3%;
+}
+
+
+#essay{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+#essay .text{
+margin: 0 auto;
+display: flex;
+max-width: 650px;
+justify-content: center;
+flex-direction: column;
+
+
+}
+
+
+#essay .text p{
+
+
+font-size: 20px;
+line-height: 30px;
+margin-top: 5%;
+color: #383737;
+}
+
+
+#essay .illustra{
+display: flex;
+height: 900px;
+
+
+}
+
+#essay .illustra img{
+max-width: 97%;
+margin: 0 auto;
+object-fit: cover;
+
+}
+
+
+
+#essay .illustra2{
+display: flex;
+height: 900px;
+
+
+}
+#essay .illustra2 img{
+max-width: 97%;
+margin: 0 auto;
+object-fit: cover;
+
+}
+
+
+
+
+#essay .text h4{
+padding-top: 20px;
+margin-bottom: -20px;
+font-family: sans-serif;
+color: black;
+}
+
+
+#essay .text h5{
+padding-top: 20px;
+margin-bottom: -20px;
+font-family: sans-serif;
+color: #919090;
+padding-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+display: flex;
+margin-top: 270px;
+margin-bottom: 30px;
+flex-direction: column;
+align-items: center;
+flex-wrap: wrap;
+
+}
+
+footer a{
+text-decoration: none;
+color: #000;
+font-family:sans-serif;
+}
+
+footer #high a{
+display: inline-flex;
+margin: 10px 40px;
+font-size: 10px;
+
+}
+footer a:hover{
+text-decoration: underline;
+}
+
+footer #high{
+display: inline-flex;
+flex-flow: row wrap;
+}
+
+footer #high #social a{
+display:inline-flex;
+justify-content: flex-end;
+margin-right: -30px;
+}
+
+
+footer #low a{
+display: inline-flex;
+margin: 10px 40px;
+font-size: 2px;
+color: #a19f9f;
+flex-shrink: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 596px){
+footer #high{
+  flex-direction: column;
+}
+footer #low{
+  display: flex;
+  flex-direction: column;
+}
+footer #low{
+  margin-left: -35px;
+
+}
+}
+
+@media (max-width: 760px){
+#title .primaryImage {
+  order: 3;
+}
+#title .headline {
+  order: 2;
+}
+#title .wd3 {
+  order: 1;
+}
+}
+
+
+@media (max-width: 786px){
+
+
+#title .wd3 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+#title .wd3 #topic h2{
+  font-size: 30px;
+}
+
+#title .wd3 #topic{
+  margin-right: 0px;
+  margin-bottom: -40px;
+}
+
+
+#title .wd3 .sub h3{
+  font-size: 28px;
+  line-height: 34px;
+
+}
+
+
+#title .wd3 .sub{
+  margin-right: 0px;
+
+}
+#title .wd3 .sub2 h3{
+
+  line-height: 19px;
+
+}
+
+
+#tag {
+  left: 43%;
+  top: 95px;
+
+}
+
+
+
+#essay #foreword h3{
+  max-width: 90%;
+    margin: 10px auto;
+   font-size: 20px;
+line-height: 30px;
+margin-top: 5%;
+color: #383737;
+}
+.text p{
+  max-width: 90%;
+  margin: 0 auto;
+}
+.text h4{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.text h5{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+
+#essay .text h4{
+ margin-bottom: 0px;
+}
+
+
+#essay .text h5{
+  margin-top: 10px;
+}
+}
+
+
+
+@media (min-width: 786px) and (max-width: 1024px) {
+#title .wd3 #topic h2{
+font-size: 60px;
+}
+
+#title .wd3 .sub h3{
+font-size: 28px;
+line-height: 44px;
+
+}
+
+}
